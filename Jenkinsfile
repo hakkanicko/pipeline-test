@@ -8,7 +8,7 @@ node {
     stage("static-analysis") {
         node('build') {
             echo "analysis"
-            sleep 5
+            sleep 2
         }
     }
     stage("acceptance-test") {
